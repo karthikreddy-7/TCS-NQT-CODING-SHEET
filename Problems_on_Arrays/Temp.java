@@ -1,3 +1,4 @@
+package Problems_on_Arrays;
 import java.util.Scanner;
 
 public class Temp{
