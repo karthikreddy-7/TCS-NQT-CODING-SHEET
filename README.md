@@ -1,33 +1,83 @@
 # TCS-NQT-CODING-SHEET
-Contains all the previously asked coding Questions by TCS 
+Contains all the previously asked and practice coding questions by TCS in Java Programming Language
 
-# Problems on Arrays
+## Problems on Arrays
+
 ### 1. Find the smallest number in an array
 - **Java File:** [Click here to see solution](Problems_on_Arrays/SmallInArray.java)
-2. Find the largest number in an array
-    3. Second Smallest and Second Largest element in an array
-    4. Reverse a given array
-    5. Count frequency of each element in an array
-    6. Rearrange array in increasing-decreasing order
-    7. Calculate sum of the elements of the array
-    8. Rotate array by K elements – Block Swap Algorithm
-    9. Average of all elements in an array
-    10. Find the median of the given array
-    11. Remove duplicates from a sorted array
-    12. Remove duplicates from unsorted array
-    13. Adding Element in an array
-    14. Find all repeating elements in an array
-    15. Find all non-repeating elements in an array
-    16. Find all symmetric pairs in array
-    17. Maximum product subarray in an array
-    18. Replace each element of the array by its rank in the array
-    19. Sorting elements of an array by frequency
-    20. Rotation of elements of array- left and right
-    21. Finding equilibrium index of an array
-    22. Finding Circular rotation of an array by K positions
-    23. Sort an array according to the order defined by another array
-    24. Search an element in an array
-    25. Check if Array is a subset of another array or not
+
+### 2. Find the largest number in an array
+- **Java File:** [Click here to see solution](Problems_on_Arrays/LargeInArray.java)
+
+### 3. Second Smallest and Second Largest element in an array
+- **Java File:** [Click here to see solution](Problems_on_Arrays/SecondLargeAndSmall.java)
+
+### 4. Reverse a given array
+- **Java File:** [Click here to see solution](Problems_on_Arrays/ReverseArray.java)
+
+### 5. Count frequency of each element in an array
+- **Java File:** [Click here to see solution](Problems_on_Arrays/FrequencyArray.java)
+
+### 6. Rearrange array in increasing-decreasing order
+- **Java File:** [Click here to see solution](Problems_on_Arrays/RearrangeArray.java)
+
+### 7. Calculate sum of the elements of the array
+- **Java File:** [Click here to see solution](Problems_on_Arrays/SumOfArray.java)
+
+### 8. Rotate array by K elements – Block Swap Algorithm
+- **Java File:** [Click here to see solution](Problems_on_Arrays/RotateArray.java)
+
+### 9. Average of all elements in an array
+- **Java File:** [Click here to see solution](Problems_on_Arrays/AverageOfArray.java)
+
+### 10. Find the median of the given array
+- **Java File:** [Click here to see solution](Problems_on_Arrays/MedianOfArray.java)
+
+### 11. Remove duplicates from a sorted array
+- **Java File:** [Click here to see solution](Problems_on_Arrays/RemoveDuplicatesSorted.java)
+
+### 12. Remove duplicates from an unsorted array
+- **Java File:** [Click here to see solution](Problems_on_Arrays/RemoveDuplicatesUnsorted.java)
+
+### 13. Adding Element in an array
+- **Java File:** [Click here to see solution](Problems_on_Arrays/AddElementToArray.java)
+
+### 14. Find all repeating elements in an array
+- **Java File:** [Click here to see solution](Problems_on_Arrays/FindRepeatingElements.java)
+
+### 15. Find all non-repeating elements in an array
+- **Java File:** [Click here to see solution](Problems_on_Arrays/FindNonRepeatingElements.java)
+
+### 16. Find all symmetric pairs in array
+- **Java File:** [Click here to see solution](Problems_on_Arrays/SymmetricPairs.java)
+
+### 17. Maximum product subarray in an array
+- **Java File:** [Click here to see solution](Problems_on_Arrays/MaximumProductSubarray.java)
+
+### 18. Replace each element of the array by its rank in the array
+- **Java File:** [Click here to see solution](Problems_on_Arrays/ReplaceElementsByRank.java)
+
+### 19. Sorting elements of an array by frequency
+- **Java File:** [Click here to see solution](Problems_on_Arrays/SortByFrequency.java)
+
+### 20. Rotation of elements of array- left and right
+- **Java File:** [Click here to see solution](Problems_on_Arrays/RotationLeftRight.java)
+
+### 21. Finding equilibrium index of an array
+- **Java File:** [Click here to see solution](Problems_on_Arrays/EquilibriumIndex.java)
+
+### 22. Finding Circular rotation of an array by K positions
+- **Java File:** [Click here to see solution](Problems_on_Arrays/CircularRotation.java)
+
+### 23. Sort an array according to the order defined by another array
+- **Java File:** [Click here to see solution](Problems_on_Arrays/SortByDefinedOrder.java)
+
+### 24. Search an element in an array
+- **Java File:** [Click here to see solution](Problems_on_Arrays/SearchElement.java)
+
+### 25. Check if Array is a subset of another array or not
+- **Java File:** [Click here to see solution](Problems_on_Arrays/ArraySubsetCheck.java)
+
 
 # Problems on Numbers
     1. Check if a number is palindrome or not
