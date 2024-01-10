@@ -2,9 +2,9 @@
 Contains all the previously asked coding Questions by TCS 
 
 # Problems on Arrays
-    ### 1. Find the smallest number in an array
-    - **Java File:** [Click here to see solution](Problems_on_Arrays/SmallInArray.java)
-    2. Find the largest number in an array
+### 1. Find the smallest number in an array
+- **Java File:** [Click here to see solution](Problems_on_Arrays/SmallInArray.java)
+2. Find the largest number in an array
     3. Second Smallest and Second Largest element in an array
     4. Reverse a given array
     5. Count frequency of each element in an array
