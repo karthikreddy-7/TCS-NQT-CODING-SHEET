@@ -1,6 +1,15 @@
 # TCS-NQT-CODING-SHEET
 Contains all the previously asked and practice coding questions by TCS in Java Programming Language
 
+## Table of Contents
+- [Previously asked coding Question](#previously-asked-coding-question)
+- [Problems on Arrays](#problems-on-arrays)
+- [Problems on Numbers](#problems-on-numbers)
+- [Problems on Number System](#problems-on-number-system)
+- [Problems on Sorting](#problems-on-sorting)
+- [Problems on String](#problems-on-string)
+
+
 ## Problems on Arrays
 Contains coding problems related to Array manipulation.
 
@@ -220,3 +229,6 @@ Contains coding problems related to string manipulation.
 #### 27. Write a program to find a substring within a string. If found display its starting position [Click here to see solution](Problems_On_String/SubString.java)
 
 #### 28. Reverse words in a string [Click here to see solution](Problems_On_String/ReverseWords.java)
+
+
+## Previously Asked Coding Question
