@@ -11,18 +11,21 @@ public class AutomorphicCheck {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the number:");
-        int n = sc.nextInt();
-        int sum = 0;
-        int dummy = n;
-        while (n > 0) {
-            int temp = n % 10;
-            sum += fact(temp);
-            n /= 10;
+        int N = sc.nextInt();
+        int sq = N * N;
+        boolean flag = false;
+        while (N > 0) {
+            // Check if last digit is equal or not
+            if (N % 10 != sq % 10)
+                flag = true;
+            // Reducing the number and its square
+            N /= 10;
+            sq /= 10;
         }
-        if (sum == dummy)
-            System.out.println("it is a strong number.");
-        else
-            System.out.println("it is not a strong number." + sum);
+        if (flag) {
+            System.out.println("it is an AutoMorphic Number");
+        } else
+            System.out.println("it is Not an AutoMorphic Number");
         sc.close();
     }
 }
