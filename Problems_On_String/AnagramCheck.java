@@ -5,33 +5,36 @@ import java.util.Scanner;
 
 public class AnagramCheck {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter word1:");
-        String s1 = sc.nextLine();
-        System.out.println("enter word2:");
-        String s2 = sc.nextLine();
-        HashMap<Character, Integer> map = new HashMap<>();
-        // putting the elements in the hasmap
-        for (char c : s1.toCharArray()) {
-            map.put(c, map.getOrDefault(c, 0) + 1);
+        String c="car";
+        String m="acr";
+        boolean ans=Anagram(c,m);
+        System.out.println(ans);
+    }
+    public static boolean Anagram(String s,String t ){
+        int [] count=new int[26];
+        if(s.length()!=t.length()){
+            return false;
         }
-        boolean flag = false;
-        // removing elements from the hashmap
-        for (char c : s2.toCharArray()) {
-            if (!map.containsKey(c)) {
-                flag = true;
-            } else {
-                map.put(c, map.get(c) - 1);
-                if (map.get(c) == 0) {
-                    map.remove(c);
-                }
+
+
+        for (int i = 0; i < s.length(); i++) {
+            count[s.charAt(i) - 'a']++;
+        }
+             for (int i = 0; i < t.length(); i++) {
+                 count[s.charAt(i) - 'a']--;
+             }
+        for (int i = 0; i < count.length; i++) {
+            if(count[i]!=0){
+                return false;
+
             }
+
+
         }
-        if (!flag && map.isEmpty()) {
-            System.out.println("kudos ! they are anagrams");
-        } else
-            System.out.println("they are not anagrams.");
-        sc.close();
+        return true;
+
+
+
 
     }
 }
