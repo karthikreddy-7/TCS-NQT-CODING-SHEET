@@ -22,4 +22,5 @@ public class ChangeCase {
         System.out.println("changed case string is " + res);
         sc.close();
     }
+
 }
