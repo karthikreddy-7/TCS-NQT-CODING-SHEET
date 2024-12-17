@@ -32,4 +32,18 @@ class Solution290 {
         }
         return true;
     }
+
+    public static void main(String[] args) {
+        HashMap<Character,String> map=new HashMap<>();
+        map.put('a',"sharath");
+        map.put('a',"sharath");
+        if(map.get('a').equals("sharath")){
+            System.out.println("sharath i love");
+        }
+
+        System.out.println(map);
+
+
+
+    }
 }
