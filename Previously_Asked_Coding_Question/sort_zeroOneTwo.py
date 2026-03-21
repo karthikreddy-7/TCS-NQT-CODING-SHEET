@@ -1,0 +1,7 @@
+n=int(input())
+arr=list(map(int,input().split()))
+c1=arr.count(0)
+c2=arr.count(1)
+c3=arr.count(2)
+print("the sorted array is:")
+print("0 "*c1+"1 "*c2+"2 "*c3)
